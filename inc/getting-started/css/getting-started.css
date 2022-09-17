@@ -1,0 +1,139 @@
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after { clear: both }
+
+.clearfix { zoom: 1 }
+
+
+.getting-started ul.ui-tabs-nav {
+    display: flex;
+    background: #fff;
+    width:100%; 
+}
+
+.getting-started ul.ui-tabs-nav li{
+    background: #fff;
+    margin-bottom: 0;
+}
+
+.getting-started ul.ui-tabs-nav li a{
+    padding: 15px;
+    border-bottom: 0;
+    display: block;
+}
+
+.getting-started ul.ui-tabs-nav.ui-tabs-active li{
+    background: #fff;
+}
+
+.appearance_page_business-times-getting-started #wpfooter{
+    position: relative;
+}
+
+.getting-started  li.ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active  a,
+.getting-started ul.ui-tabs-nav li a:hover{
+    background: #fff;
+    border-bottom: 5px solid;
+}
+
+.getting-started-body {
+    background: #fff;
+    padding: 15px 30px 30px;
+    width: 63%;
+    display: inline-block;
+}
+
+.getting-started-sidebar {
+
+    width: 30%;
+    float: right;
+    display: inline-block;
+}
+
+.getting-started-sidebar  .panel-aside {
+    border: 5px solid #2271b1;
+    padding: 15px 30px 30px;
+    background: #ffff;
+    margin-bottom: 30px;
+}
+
+.getting-started-body h4,
+.getting-started-sidebar h4{
+    font-size: 20px;
+}
+
+.getting-started-body p,
+.getting-started-sidebar p{
+    font-size: 18px;
+}
+
+
+.getting-started ul.ui-tabs-nav li a{
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.panel-aside a.button.button-primary {
+    font-size: 16px;
+}
+
+.intro-wrap {
+    background: #fff;
+    padding: 30px;
+}
+
+.intro-wrap h3{
+    font-size: 24px;
+}
+
+.intro-wrap h4{
+    font-size: 20px;
+}
+
+.toggle-block {
+    background: #f1f1f1;
+    margin-bottom: 30px;
+}
+
+h3.toggle-title {
+    border: 2px solid #cdcdcd;
+    padding: 20px 30px;
+}
+
+.toggle-content {
+    padding: 0px 30px 10px;
+}
+
+.getting-started .panels.display-on {
+    display: block;
+}
+
+/** Table **/
+
+table.compare {
+   /* border: 5px solid #cdcdcd; */
+}
+
+table.compare thead {
+    background: #008cdd;
+    color: #fff;
+}
+
+table.compare th,
+table.compare td {
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #000;
+}
+
+table.compare i.fa-check {
+    color: #0da33a;
+}
+
+table.compare i.fa-times {
+    color: #e20303;
+}
